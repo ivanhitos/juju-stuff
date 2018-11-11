@@ -1,26 +1,18 @@
 ### Juju manual provider on Azure to deploy K8s.
 
 #### On your computer:
-Install terraform
-
-Install az
-
-Download this repo and cd into the terraform directory
-
-Run: # az login
-
-Create the terraform.tfvars file
-
-Run: # terraform init
-
-Run: # terraform plan
-
-Run: # terraform apply
-
-Run: # scp bundles/cdk-bundle.yaml ubuntu@juju_client_public_ip:
-
-Run: # scp bundles/azure-integrator-overlay.yaml ubuntu@juju_client_public_ip:
-
+- Install terraform
+- Install az
+- Download this repo and cd into the terraform directory
+- Create the terraform.tfvars file
+- Run: 
+````
+$ az login
+$ terraform init
+$ terraform plan
+$ terraform apply
+$ scp bundles/cdk-bundle.yaml ubuntu@juju_client_public_ip:
+$ scp bundles/azure-integrator-overlay.yaml ubuntu@juju_client_public_ip:
 
 
 
