@@ -1,6 +1,6 @@
-## Juju manual provider on Azure to deploy K8s.
+### Juju manual provider on Azure to deploy K8s.
 
-### On your computer:
+#### On your computer:
 - Install terraform
 - Install az
 - Download this repo and cd into the terraform directory
@@ -13,7 +13,7 @@
 
 
 
-### On the juju client 
+#### On the juju client 
 ```(ssh-add yourkey, ssh -A ubuntu@juju_client_public_ip)```:
 
 - Install juju, bootstrap controllers and add machines
