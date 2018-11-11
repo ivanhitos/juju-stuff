@@ -13,7 +13,7 @@ $ terraform plan
 $ terraform apply
 $ scp bundles/cdk-bundle.yaml ubuntu@juju_client_public_ip:
 $ scp bundles/azure-integrator-overlay.yaml ubuntu@juju_client_public_ip:
-
+```
 
 
 #### On the juju client 
