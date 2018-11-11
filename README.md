@@ -1,1 +1,1 @@
-Different project
+Different projects
