@@ -5,6 +5,7 @@ Install terraform
 Install az
 Download this repo and cd into the terraform directory
 Run: # az login
+Create the terraform.tfvars file
 Run: # terraform init
 Run: # terraform plan
 Run: # terraform apply
