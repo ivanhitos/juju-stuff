@@ -36,7 +36,7 @@ kubectl get nodes
 
 
 Configure Azure tools and configure the integrator:
-````
+```
 juju deploy cdk-core.yaml --map-machines existing,0=0,1=1, --overlay ./azure-integrator-overlay.yaml
 # cat <<EOF > azure-cred.json   # get this info from Azure or Azure client
 {
