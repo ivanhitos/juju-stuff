@@ -32,7 +32,7 @@ Install juju, bootstrap controllers and add machines
 $ sudo snap install juju --classic
 $ juju bootstrap manual/192.168.1.X
 $ juju add-machine ssh:ubuntu@192.168.1.X  # Run this for all the machines
-$ juju deploy cdk-core.yaml --map-machines existing,0=0,1=1,2=2,3=3,4=4,5=5,6=6
+$ juju deploy cdk-bundle.yaml
 $ watch -c juju status --color # wait for all units to become active
 ```
 
@@ -48,7 +48,7 @@ $ kubectl get nodes
 
 Configure Azure tools and configure the integrator:
 ```
-$ juju deploy cdk-core.yaml --map-machines existing,0=0,1=1, --overlay ./azure-integrator-overlay.yaml
+$ juju deploy cdk-bundle.yaml --overlay ./azure-integrator-overlay.yaml
 $ cat <<EOF > azure-cred.json   # get this info from Azure or Azure client
 {
   "application-id": "XXXXX",
