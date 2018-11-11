@@ -52,6 +52,6 @@ $ juju config azure-integrator  credentials="$(base64 /home/ubuntu/azure-cred.js
 $ watch -c juju status --color # wait for all units to become active
 ```
 
-Run tests from https://jujucharms.com/u/containers/azure-integrator/
+Run tests from [Juju Charm Azure Integrator](https://jujucharms.com/u/containers/azure-integrator/)
 
 
