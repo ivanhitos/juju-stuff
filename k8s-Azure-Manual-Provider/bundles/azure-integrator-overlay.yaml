@@ -1,0 +1,10 @@
+
+applications:
+  azure-integrator:
+    charm: cs:~containers/azure-integrator
+    num_units: 1
+    series: xenial
+relations:
+  - ['azure-integrator', 'kubernetes-master']
+  - ['azure-integrator', 'kubernetes-worker']
+EOF
