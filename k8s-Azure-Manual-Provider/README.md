@@ -6,7 +6,7 @@
 - Download this repo and cd into the terraform directory
 - Create the terraform.tfvars file
 - Run: 
-````
+```
 $ az login
 $ terraform init
 $ terraform plan
