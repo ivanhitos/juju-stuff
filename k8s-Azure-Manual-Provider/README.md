@@ -17,7 +17,7 @@ $ scp bundles/azure-integrator-overlay.yaml ubuntu@juju_client_public_ip:
 
 
 #### On the juju client 
-```(ssh-add yourkey, ssh -A ubuntu@juju_client_public_ip)```:
+```(connect via command: $ ssh-add yourkey, ssh -A ubuntu@juju_client_public_ip)```:
 
 Install juju, bootstrap controllers and add machines
 ```
