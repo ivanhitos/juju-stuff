@@ -38,7 +38,7 @@ $ kubectl get nodes
 ```
 
 
-Configure Azure tools and configure the integrator:
+Configure Azure tools and configure the integrator (This will not work yet, don't run it!):
 ```
 $ juju deploy cdk-bundle.yaml --overlay ./azure-integrator-overlay.yaml
 $ cat <<EOF > azure-cred.json   # get this info from Azure or Azure client
